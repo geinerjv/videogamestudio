@@ -50,12 +50,13 @@ figure img{
 }
 
 .banner2{
-    width: 600px;
-    height: 200px;
+    width: 600px;    
     background: white;    
     position: relative;
     top: -120px;
-    right: ;
+    padding: 30px;
     margin: 0 auto; 
+    box-shadow: 1px solid red;
+    z-index: 1000;
 }
 
