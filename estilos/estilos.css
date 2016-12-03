@@ -63,6 +63,10 @@ figure img{
 
 #btn-menu{
     display: none;
+    border-radius: 15px;
+    padding: 5px;
+    background: rgba(46, 204, 113,1.0);    
+    border: none;        
 }
 
 #btn-menu-esconder{
@@ -79,6 +83,9 @@ figure img{
     }
     ul li{
         display: block;
+    }
+    .banner2{
+        width: 100%;
     }
 }
 

@@ -10,5 +10,10 @@ $(document).ready(function(){
         $("#btn-menu-esconder").hide();
         $("#nav").slideUp();
     });
+    
+    var perro = $( window ).width()
+    if(perro >= 651){
+        alert("Yeah");
+    }
 }); 
 
