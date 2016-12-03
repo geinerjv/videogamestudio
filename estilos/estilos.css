@@ -30,6 +30,9 @@ header{
 
 nav{
     margin-top: 5px;
+    background: yellow;
+    position: relative;
+    z-index: 1000;
 }
 
 ul li{
@@ -58,5 +61,21 @@ figure img{
     margin: 0 auto; 
     box-shadow: 1px solid red;
     z-index: 1000;
+}
+
+#btn-menu{
+    display: none;
+}
+
+@media (max-width:650px) {
+    #btn-menu{
+        display: inline-block;
+    }
+    nav{
+        display: ;
+    }
+    ul li{
+        display: block;
+    }
 }
 
