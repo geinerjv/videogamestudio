@@ -61,12 +61,12 @@ figure img{
     z-index: 1000;
 }
 
-#btn-menu{
+#btn-menu, #btn-menu-esconder{
     display: none;
-    border-radius: 15px;
     padding: 5px;
     background: rgba(46, 204, 113,1.0);    
     border: none;        
+    color: white;
 }
 
 #btn-menu-esconder{
