@@ -4,6 +4,7 @@ Fuentes externas
 */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
 
+@import url('https://fonts.googleapis.com/css?family=Bungee');
 
 /*
 Estilos Generales
@@ -59,21 +60,37 @@ figure img{
     margin: 0 auto; 
     box-shadow: 1px solid red;
     z-index: 1000;
+    text-align: justify;
 }
 
 #btn-menu, #btn-menu-esconder{
     display: none;
-    padding: 5px;
-    background: rgba(46, 204, 113,1.0);    
+    padding: 8px;
+    background: rgba(26, 188, 156,1.0);  
     border: none;        
     color: white;
+    width: 97%;
+    margin: 0 auto;
+    text-align: right;
 }
 
 #btn-menu-esconder{
     display: none;
 }
 
+footer{   
+    position: absolute;
+    bottom: 0;
+    padding: 0 15px 10px 15px;
+    width: 100%;
+    font-family: 'Bungee', cursive;
+    text-align: center;    
+}
+
 @media (max-width:650px) {
+    header{
+        padding: 20px 0 20px 0;
+    }
     #btn-menu{
         display: inline-block;
     }
@@ -85,11 +102,16 @@ figure img{
         display: block;
     }
     .banner2{
-        width: 100%;
+        width: 100%;   
+        height: auto;
+        position: static;
     }
     a{
         border: 1px solid white;
         display: block;
+    }
+    footer{
+        position: static;
     }
 }
 

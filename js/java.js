@@ -13,7 +13,7 @@ $(document).ready(function(){
     
     var perro = $( window ).width()
     if(perro >= 651){
-        alert("Yeah");
+       
     }
 }); 
 
