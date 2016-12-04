@@ -51,6 +51,10 @@ figure img{
     height: 300px;
 }
 
+.banner-alter{
+    display: none;
+}
+
 .banner2{
     width: 600px;    
     background: white;    
@@ -112,6 +116,14 @@ footer{
     }
     footer{
         position: static;
+    }
+    
+    .banner{
+        display: none;
+    }
+    
+    .banner-alter{
+        display: block;
     }
 }
 
