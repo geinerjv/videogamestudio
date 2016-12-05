@@ -73,7 +73,7 @@ figure img{
     background: rgba(26, 188, 156,1.0);  
     border: none;        
     color: white;
-    width: 97%;
+    width: 100%;
     margin: 0 auto;
     text-align: right;
 }
@@ -94,6 +94,10 @@ footer{
 @media (max-width:650px) {
     header{
         padding: 20px 0 20px 0;
+    }
+    
+    h4{
+        margin-bottom: 10px;
     }
     #btn-menu{
         display: inline-block;
